@@ -1,4 +1,7 @@
 # eos-apm
+<<<<<<< HEAD
+This is an android battery manager. Apm is shortfor Apm Power Manager. :)
+=======
 This a dev branch of APM, you can test new features and do demo in this branch.
 
 In order no to confuse yourself and myself, here are the instructions:
@@ -12,6 +15,30 @@ In order no to confuse yourself and myself, here are the instructions:
 3. Create a OnClickListener for that button, and add the method **startActivity** to invoke the slidingTabActivity, so that everyone can test new features in this branch without messing the **MainActivity** up
 4. If you like to upload a snapshot of the new feature, put it in ./ApmPowerManager/pic/, and add som instruction or explaination in this README file
 
+
+- - -
+**a appinfoview demo at 30th May, 2015**
+
+1. remove actitonbar by @hult1989
+2. apply a colorful theme by @hult1989
+3. wrap time consuming operation in runOnUiThread by @hult1989
+
+<img src="https://raw.githubusercontent.com/hult1989/eos-apm/dev/ApmPowerManager/pic/applistcolored.png" width="360px"/>
+
+<img src="https://raw.githubusercontent.com/hult1989/eos-apm/dev/ApmPowerManager/pic/appinfocolored.png" width="360px"/>
+
+- - -
+**a batterychart demo at 29th May, 2015**
+
+1. add battery chart view by @pkufool 
+2. change appinfoview's color to white by @pkufool
+3. apply cardview to each item in listview, add click listener to each item by @hult1989
+
+<img src="https://raw.githubusercontent.com/hult1989/eos-apm/dev/ApmPowerManager/pic/batterychart.png" width="360px"/>
+
+<img src="https://raw.githubusercontent.com/hult1989/eos-apm/dev/ApmPowerManager/pic/appinfoviewv3.png" width="360px"/>
+
+<img src="https://raw.githubusercontent.com/hult1989/eos-apm/dev/ApmPowerManager/pic/listviewv2.png" width="360px" />
 
 - - -
 **a appinfoview demo at 28th May, 2015**
@@ -43,3 +70,4 @@ something wrong with imagebutton, need someone fix it!
 This is an android battery manager. Apm is shortfor Apm Power Manager. :)
 
  
+>>>>>>> 7109efb320734a3db61c194776ec09b075d54e2f

@@ -22,6 +22,8 @@ import android.graphics.Paint.Align;
 import android.os.Bundle;
 import android.view.View;
 
+
+//用来画app的cpu耗电的图的
 public class LineChart {
     public View execute(Context context) {
         /*
@@ -41,7 +43,8 @@ public class LineChart {
         }
         List<double[]> values = new ArrayList<double[]>();
         values.add(new double[] { 39, 50, 41, 45, 29, 23, 56, 45, 22, 18, 43, 10 });
-        int[] colors = new int[] { Color.rgb(113, 195, 222)  };
+        //int[] colors = new int[] { Color.rgb(113, 195, 222)  };
+        int[] colors = new int[] {  Color.RED};
         PointStyle[] styles = new PointStyle[] { PointStyle.CIRCLE };
         XYMultipleSeriesRenderer renderer = buildRenderer(colors, styles);
         int length = renderer.getSeriesRendererCount();
